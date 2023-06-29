@@ -16,7 +16,7 @@ lightningrpc = []
 signrpc = []
 walletrpc = ["signrpc"]
 routerrpc = ["lightningrpc"]
-invoicesrpc = ["invoicesrpc"]
+invoicesrpc = []
 all = ["lightningrpc", "walletrpc", "routerrpc", "invoicesrpc"]
 
 [dependencies]
