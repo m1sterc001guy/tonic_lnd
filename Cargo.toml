@@ -16,7 +16,8 @@ lightningrpc = []
 signrpc = []
 walletrpc = ["signrpc"]
 routerrpc = ["lightningrpc"]
-all = ["lightningrpc", "walletrpc", "routerrpc"]
+invoicesrpc = ["invoicesrpc"]
+all = ["lightningrpc", "walletrpc", "routerrpc", "invoicesrpc"]
 
 [dependencies]
 tonic = { version = "0.6.2", features = ["transport", "tls"] }
